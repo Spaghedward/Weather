@@ -12,13 +12,18 @@
     height: 100px;
 }
 
-#forecast {
- 
+#fiveDay {
+ justify-content: center;
+}
+
+#oneDay {
+    justify-content: center;
 }
 
 #present {
     background-color: aqua;
     justify-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -26,6 +31,7 @@
     background-color: #0077c0;
     justify-content: center;
     margin-top: 15px;
+    flex-wrap: wrap;
 }
 
 #city {
