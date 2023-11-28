@@ -20,6 +20,17 @@ button.addEventListener('click', function() {
     fetchpromise.then((response) => {
         console.log(response);
     })
+    fetchpromise.then(data => {
+        for (let i = 0; i < 5; i++) {
+           document.getElementById('day' + (i+1)).innerHTML = data.list[i].dt;
+           document.getElementById('image' + (i+1)).src ="https://openweathermap.org/img/wn/" +data.list[i].weather.icon+ ".png"
+           document.getElementById('temp' +(i+1)).innerHTML = data.list[i].main.temp;
+           document.getElementById('humid' +(i+1)).innerHTML = data.list[i].main.humidity;
+           document.getElementById('wind' +(i+1)).innerHTML = data.list[i].wind.speed
+            
+        }
+    })
+
     console.log(userInput.value);
     localStorage.setItem('city', userInput.value)
 })

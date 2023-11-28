@@ -1,5 +1,7 @@
-aside {
-    height: 100%;
+#searchsave {
+    height: 1080px;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 #header {
@@ -10,12 +12,27 @@ aside {
     height: 100px;
 }
 
+#forecast {
+ 
+}
+
 #present {
     background-color: aqua;
+    justify-content: center;
 
 }
 
 #future {
     background-color: #0077c0;
-    
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#city {
+    justify-content: center;
+
+}
+
+#table {
+    flex-direction: column;
 }
