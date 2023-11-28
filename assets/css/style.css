@@ -1,0 +1,21 @@
+aside {
+    height: 100%;
+}
+
+#header {
+    justify-content: center;
+    background-color: #c4ced4;
+    color: #0077c0;
+    align-items: center;
+    height: 100px;
+}
+
+#present {
+    background-color: aqua;
+
+}
+
+#future {
+    background-color: #0077c0;
+    
+}
